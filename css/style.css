@@ -1,0 +1,100 @@
+html{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+header {
+    background-color: #E0CCBE;
+}
+
+body {
+    background-color: #EEEDEB;
+}
+
+footer {
+    background-color: #E0CCBE;
+}
+
+main{
+    color: #3C3633;
+}
+
+.logotipo {
+    width: 100px; height: 100px;
+}
+
+.encabezado {
+    width: 100%; height: 600px;
+}
+
+.menu li {
+    list-style: none; display: inline;
+}
+
+ul {
+    text-align: center;
+}
+
+h1.bienvenida {
+    text-align: center;
+}
+
+h2.descripcion-1 {
+    text-align: center;
+}
+
+p.descripcion-2 {
+    text-align: center;
+}
+
+.informacion {
+    text-align: center;
+}
+
+img.logo {
+    width: 50px; height: 50px;
+}
+
+div.redes_sociales {
+    text-align: center;
+}
+
+.retrato {
+    width: 9cm; height: 10cm;
+}
+
+/* Galería de imágenes */
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.contenedor-galeria {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-template-rows: repeat(5, auto);
+    justify-content: center;
+    row-gap: 5px;
+    column-gap: 5px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.uno {
+    grid-column: 1/3;
+    grid-row: 1/3;
+}
+
+.seis {
+    grid-column: 4/6;
+    grid-row: 2/4;
+}
+
+.diez {
+    grid-column: 1/3;
+    grid-row: 4/6;
+}
+
+.once {
+    grid-column: 3/5;
+    grid-row: 4/6;
+}
